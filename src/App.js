@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import MyHello from "./components/MyHello";
+import EventBasic from "./components/EventBasic";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <MyHello myName="monda" />
+      <EventBasic type="time" />
     </div>
   );
 }
