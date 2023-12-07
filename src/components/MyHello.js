@@ -1,3 +1,3 @@
-export default function MyHello(props) {
-  return <div>Hello {props.myName}</div>;
+export default function MyHello({ myName }) {
+  return <div>Hello {myName}</div>;
 }
