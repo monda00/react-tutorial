@@ -1,4 +1,5 @@
 import React from "react";
+import Download from "./Download";
 
 export default function ForList({ src }) {
   return (
@@ -13,6 +14,7 @@ export default function ForList({ src }) {
             </a>
           </dt>
           <dd>{elem.summary}</dd>
+          <Download src={elem.isbn} />
         </React.Fragment>
       ))}
     </dl>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ForFileter({ src }) {
+export default function ForFilter({ src }) {
   const lowPrice = src.filter((book) => book.price < 3500);
   return (
     <dl>
