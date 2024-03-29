@@ -5,6 +5,7 @@ import StateBasic from "./components/StateBasic";
 import ForList from "./components/ForList";
 import ForFilter from "./components/ForFilter";
 import books from "./data/books";
+import ForItem from "./components/ForItem";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <StateBasic init={0} />
       <ForList src={books} />
       <ForFilter src={books} />
+      <ForItem books={books[0]} />
     </div>
   );
 }
