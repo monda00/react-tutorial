@@ -7,6 +7,7 @@ import ForFilter from "./components/ForFilter";
 import books from "./data/books";
 import ForItem from "./components/ForItem";
 import SelectStyle from "./components/SelectStyle";
+import TitlePanel from "./components/TitledPanel";
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
       <ForFilter src={books} />
       <ForItem books={books[0]} />
       <SelectStyle mode="dark" />
+      <TitlePanel>
+        <p key="title">This is title</p>
+        <p key="body">This is body</p>>
+      </TitlePanel>
     </div>
   );
 }
