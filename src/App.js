@@ -10,6 +10,7 @@ import SelectStyle from "./components/SelectStyle";
 import TitlePanel from "./components/TitledPanel";
 import EventMouse from "./components/EventMouse";
 import EventObj from "./components/EventObj";
+import EventPoint from "./components/EventPoint";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         afterSrc="https://www.web-deli.com/image/home_chara.gif"
       />
       <EventObj />
+      <EventPoint />
     </div>
   );
 }
