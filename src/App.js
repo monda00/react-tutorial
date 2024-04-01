@@ -8,6 +8,7 @@ import books from "./data/books";
 import ForItem from "./components/ForItem";
 import SelectStyle from "./components/SelectStyle";
 import TitlePanel from "./components/TitledPanel";
+import EventMouse from "./components/EventMouse";
 
 function App() {
   return (
@@ -21,8 +22,13 @@ function App() {
       <SelectStyle mode="dark" />
       <TitlePanel>
         <p key="title">This is title</p>
-        <p key="body">This is body</p>>
+        <p key="body">This is body</p>
       </TitlePanel>
+      <EventMouse
+        alt="mouse event"
+        beforeSrc="https://www.web-deli.com/image/linkbanner_l.gif"
+        afterSrc="https://www.web-deli.com/image/home_chara.gif"
+      />
     </div>
   );
 }
