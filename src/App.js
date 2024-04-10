@@ -13,6 +13,7 @@ import "./App.css";
 //import EventPoint from "./components/EventPoint";
 import StateForm from "./components/form/StateForm";
 import StateNest from "./components/form/StateNest";
+import StateTodo from "./components/todo/StateTodo";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       */}
       <StateForm />
       <StateNest />
+      <StateTodo />
     </div>
   );
 }
