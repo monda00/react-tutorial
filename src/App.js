@@ -1,20 +1,23 @@
 import "./App.css";
-import MyHello from "./components/MyHello";
-import EventBasic from "./components/EventBasic";
-import StateBasic from "./components/StateBasic";
-import ForList from "./components/ForList";
-import ForFilter from "./components/ForFilter";
-import books from "./data/books";
-import ForItem from "./components/ForItem";
-import SelectStyle from "./components/SelectStyle";
-import TitlePanel from "./components/TitledPanel";
-import EventMouse from "./components/EventMouse";
-import EventObj from "./components/EventObj";
-import EventPoint from "./components/EventPoint";
+//import MyHello from "./components/MyHello";
+//import EventBasic from "./components/EventBasic";
+//import StateBasic from "./components/StateBasic";
+//import ForList from "./components/ForList";
+//import ForFilter from "./components/ForFilter";
+//import books from "./data/books";
+//import ForItem from "./components/ForItem";
+//import SelectStyle from "./components/SelectStyle";
+//import TitlePanel from "./components/TitledPanel";
+//import EventMouse from "./components/EventMouse";
+//import EventObj from "./components/EventObj";
+//import EventPoint from "./components/EventPoint";
+import StateForm from "./components/form/StateForm";
+import StateNest from "./components/form/StateNest";
 
 function App() {
   return (
     <div className="App">
+      {/*
       <MyHello myName="monda" />
       <EventBasic type="time" />
       <StateBasic init={0} />
@@ -33,6 +36,9 @@ function App() {
       />
       <EventObj />
       <EventPoint />
+      */}
+      <StateForm />
+      <StateNest />
     </div>
   );
 }
