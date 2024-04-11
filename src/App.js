@@ -11,10 +11,11 @@ import "./App.css";
 //import EventMouse from "./components/EventMouse";
 //import EventObj from "./components/EventObj";
 //import EventPoint from "./components/EventPoint";
-import StateForm from "./components/form/StateForm";
-import StateNest from "./components/form/StateNest";
-import StateTodo from "./components/todo/StateTodo";
-import FormBasic from "./components/form/FormBasic";
+//import StateForm from "./components/form/StateForm";
+//import StateNest from "./components/form/StateNest";
+//import StateTodo from "./components/todo/StateTodo";
+//import FormBasic from "./components/form/FormBasic";
+import SuspenseResult from "./components/suspense/SuspenseResult";
 
 function App() {
   return (
@@ -38,11 +39,12 @@ function App() {
       />
       <EventObj />
       <EventPoint />
-      */}
       <StateForm />
       <StateNest />
       <StateTodo />
       <FormBasic />
+      */}
+      <SuspenseResult />
     </div>
   );
 }
