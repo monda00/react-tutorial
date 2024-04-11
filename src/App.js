@@ -14,6 +14,7 @@ import "./App.css";
 import StateForm from "./components/form/StateForm";
 import StateNest from "./components/form/StateNest";
 import StateTodo from "./components/todo/StateTodo";
+import FormBasic from "./components/form/FormBasic";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
       <StateForm />
       <StateNest />
       <StateTodo />
+      <FormBasic />
     </div>
   );
 }
