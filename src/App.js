@@ -16,10 +16,11 @@ import "./App.css";
 //import StateTodo from "./components/todo/StateTodo";
 //import FormBasic from "./components/form/FormBasic";
 //import SuspenseResult from "./components/suspense/SuspenseResult";
-import {
-  MyButton,
-  MyStyledButton,
-} from "./components/styledComponent/StyledComp";
+//import {
+//  MyButton,
+//  MyStyledButton,
+//} from "./components/styledComponent/StyledComp";
+import EmotionComp from "./components/emotion/EmotionComp";
 
 function App() {
   return (
@@ -48,9 +49,10 @@ function App() {
       <StateTodo />
       <FormBasic />
       <SuspenseResult />
-      */}
       <MyButton>MyButton</MyButton>
       <MyStyledButton>MyStyledButton</MyStyledButton>
+      */}
+      <EmotionComp />
     </div>
   );
 }
