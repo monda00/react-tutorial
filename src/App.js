@@ -22,7 +22,8 @@ import "./App.css";
 //} from "./components/styledComponent/StyledComp";
 //import EmotionComp from "./components/emotion/EmotionComp";
 //import MaterialBasic from "./components/mui/MaterialBasic";
-import MaterialDrawer from "./components/mui/MaterialDrawer";
+//import MaterialDrawer from "./components/mui/MaterialDrawer";
+import MaterialGrid from "./components/mui/MaterialGrid";
 
 function App() {
   return (
@@ -55,8 +56,9 @@ function App() {
       <MyStyledButton>MyStyledButton</MyStyledButton>
       <EmotionComp />
       <MaterialBasic />
-      */}
       <MaterialDrawer />
+      */}
+      <MaterialGrid />
     </div>
   );
 }
