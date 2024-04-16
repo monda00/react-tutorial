@@ -15,7 +15,11 @@ import "./App.css";
 //import StateNest from "./components/form/StateNest";
 //import StateTodo from "./components/todo/StateTodo";
 //import FormBasic from "./components/form/FormBasic";
-import SuspenseResult from "./components/suspense/SuspenseResult";
+//import SuspenseResult from "./components/suspense/SuspenseResult";
+import {
+  MyButton,
+  MyStyledButton,
+} from "./components/styledComponent/StyledComp";
 
 function App() {
   return (
@@ -43,8 +47,10 @@ function App() {
       <StateNest />
       <StateTodo />
       <FormBasic />
-      */}
       <SuspenseResult />
+      */}
+      <MyButton>MyButton</MyButton>
+      <MyStyledButton>MyStyledButton</MyStyledButton>
     </div>
   );
 }
