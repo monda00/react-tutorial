@@ -24,7 +24,8 @@ import "./App.css";
 //import MaterialBasic from "./components/mui/MaterialBasic";
 //import MaterialDrawer from "./components/mui/MaterialDrawer";
 //import MaterialGrid from "./components/mui/MaterialGrid";
-import HookTimer from "./components/hook/HookTimer";
+//import HookTimer from "./components/hook/HookTimer";
+import HookRef from "./components/hook/HookRef";
 
 function App() {
   return (
@@ -59,8 +60,9 @@ function App() {
       <MaterialBasic />
       <MaterialDrawer />
       <MaterialGrid />
-      */}
       <HookTimer init={20} />
+      */}
+      <HookRef />
     </div>
   );
 }
