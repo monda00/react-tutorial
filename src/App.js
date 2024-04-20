@@ -23,7 +23,8 @@ import "./App.css";
 //import EmotionComp from "./components/emotion/EmotionComp";
 //import MaterialBasic from "./components/mui/MaterialBasic";
 //import MaterialDrawer from "./components/mui/MaterialDrawer";
-import MaterialGrid from "./components/mui/MaterialGrid";
+//import MaterialGrid from "./components/mui/MaterialGrid";
+import HookTimer from "./components/hook/HookTimer";
 
 function App() {
   return (
@@ -57,8 +58,9 @@ function App() {
       <EmotionComp />
       <MaterialBasic />
       <MaterialDrawer />
-      */}
       <MaterialGrid />
+      */}
+      <HookTimer init={20} />
     </div>
   );
 }
