@@ -1,4 +1,3 @@
-import { clear } from "@testing-library/user-event/dist/clear";
 import { useState, useRef } from "react";
 
 export default function HookRef() {
