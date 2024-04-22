@@ -27,7 +27,9 @@ import "./App.css";
 //import HookTimer from "./components/hook/HookTimer";
 //import HookRef from "./components/hook/HookRef";
 //import HookReducer from "./components/hook/HookReducer";
-import HookContext from "./components/hook/HookContext";
+//import HookContext from "./components/hook/HookContext";
+import { RecoilRoot } from "recoil";
+import RecoilCounter from "./components/hook/RecoilCounter";
 
 function App() {
   return (
@@ -65,8 +67,11 @@ function App() {
       <HookTimer init={20} />
       <HookRef />
       <HookReducer init={0} />
-      */}
       <HookContext />
+      */}
+      <RecoilRoot>
+        <RecoilCounter />
+      </RecoilRoot>
     </div>
   );
 }
