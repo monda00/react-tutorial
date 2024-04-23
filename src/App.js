@@ -28,8 +28,8 @@ import "./App.css";
 //import HookRef from "./components/hook/HookRef";
 //import HookReducer from "./components/hook/HookReducer";
 //import HookContext from "./components/hook/HookContext";
-import { RecoilRoot } from "recoil";
-import RecoilCounter from "./components/hook/RecoilCounter";
+//import { RecoilRoot } from "recoil";
+//import RecoilCounter from "./components/hook/RecoilCounter";
 
 function App() {
   return (
@@ -68,10 +68,10 @@ function App() {
       <HookRef />
       <HookReducer init={0} />
       <HookContext />
-      */}
       <RecoilRoot>
         <RecoilCounter />
       </RecoilRoot>
+      */}
     </div>
   );
 }
