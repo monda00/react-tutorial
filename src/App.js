@@ -34,6 +34,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      learn react
       {/*
       <MyHello myName="monda" />
       <EventBasic type="time" />
